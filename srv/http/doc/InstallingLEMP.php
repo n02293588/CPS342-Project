@@ -51,6 +51,7 @@ Finally, I restarted the three daemons and enabled them to boot on startup.
 	sudo systemctl enable mysqld php-pm<br></pre></p>
 
 <p>Thus concludes the installation of the LEMP server</p>
+<br>
 <div align="right">
 	<a href="/doc/LearningPHPandMySQL.php">Next</a>
 </div>
@@ -58,6 +59,7 @@ Finally, I restarted the three daemons and enabled them to boot on startup.
 <div align = "center">
 	<a href="/docs.html">Back to Documents</a>
 </div>
-
+<br>
+<br>
 </body>
 </html>

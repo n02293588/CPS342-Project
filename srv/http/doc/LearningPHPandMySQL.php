@@ -124,7 +124,9 @@ And with that, I produced a webpage that looks like the image below:<br>
 <div align="left">
 	<a href="/doc/InstallingLEMP.php">Previous</a>
 </div>
-<br>
+<div align="right">
+	<a href="/doc/RPiGPIO.php">Next</a>
+</div>
 <br>
 <div align="center">
 	<a href="/docs.html">Back to Documents</a>
