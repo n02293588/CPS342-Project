@@ -1,7 +1,6 @@
 <html>
 <head>
 <title>(4) Using Python and MySQL</title>
-<strong>Using Python and MySQL</strong>
 <style>
     body {
         width: 35em;
@@ -9,6 +8,9 @@
         font-family: Tahoma, Verdana, Arial, sans-serif;
     }
 </style>
+<img src="/imgs/setup.jpg">
+<br>
+<strong>Using Python and MySQL</strong>
 </head>
 
 <body>

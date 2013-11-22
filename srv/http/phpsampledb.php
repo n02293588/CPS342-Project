@@ -14,6 +14,7 @@ body {
 <?php
 echo '<title>PHP Test Database</title>';
 ?>
+<img src="/imgs/setup.jpg">
 </head>
 <body>
 <br>

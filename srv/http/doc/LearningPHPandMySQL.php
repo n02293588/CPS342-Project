@@ -7,8 +7,9 @@
         font-family: Tahoma, Verdana, Arial, sans-serif;
     }
 </style>
-</head>
-<head><strong>Learning PHP and MySQL</strong></head>
+<img src="/imgs/setup.jpg">
+<br>
+<strong>Learning PHP and MySQL</strong></head>
 
 <body>
 <p>After configuring the LEMP server and making some changes to the way nginx works (for example, I moved the index.html page from /usr/share/nginx/html/ to /srv/http/ to keep everything together) and the index.html file (I added some links, shown below in the image.)

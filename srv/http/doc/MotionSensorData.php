@@ -8,6 +8,8 @@
         font-family: Tahoma, Verdana, Arial, sans-serif;
     }
 </style>
+<img src="/imgs/setup.jpg">
+<br>
 
 <strong>(5) Displaying the Motion Sensor Data</strong>
 </head>

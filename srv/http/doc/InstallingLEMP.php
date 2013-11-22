@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>(1) Installing a LEMP Server on RPi</title>
-<strong>Installing a LEMP Server on RPi</strong>
+
 <style>
     body {
         width: 35em;
@@ -9,6 +9,9 @@
         font-family: Tahoma, Verdana, Arial, sans-serif;
     }
 </style>
+<img src="/imgs/setup.jpg">
+<br>
+<strong>Installing a LEMP Server on RPi</strong>
 </head>
 
 <body>

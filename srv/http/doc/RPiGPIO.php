@@ -1,7 +1,6 @@
 <html>
 <head>
 <title>(3) Using Raspberry Pi's GPIO Pins</title>
-<strong>Using Raspberry Pi's GPIO Pins</strong>
 <style>
     body {
         width: 35em;
@@ -9,6 +8,9 @@
         font-family: Tahoma, Verdana, Arial, sans-serif;
     }
 </style>
+<img src="/imgs/setup.jpg">
+<br>
+<strong>Using Raspberry Pi's GPIO Pins</strong>
 </head>
 
 <body>
