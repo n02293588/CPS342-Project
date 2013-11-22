@@ -116,7 +116,7 @@ My next goal is to put this into a database.
 
 
 <div align="right">
-        <a href="/doc/Python-MySQL.php">Next</a>
+        <a href="/doc/MotionSensorData.php">Next</a>
 </div>
 <div align="left">
 	<a href="/doc/LearningPHPandMySQL.php">Previous</a>

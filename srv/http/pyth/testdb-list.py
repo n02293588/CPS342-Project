@@ -45,7 +45,7 @@ while 1:
 		print('Input went LOW')
 		x = 1
 
-	if (db_count == 5):
+	if (db_count == 1):
 		print(biglist)
 
 		cur.executemany('INSERT INTO sensordat2 VALUES (%s, %s)', biglist)
