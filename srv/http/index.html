@@ -1,37 +1,48 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Welcome to nginx!</title>
-<style>
-    body {
-        width: 35em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
-    }
-</style>
-<img src="/imgs/setup.jpg">
-</head>
-<body>
-<h1>Welcome to my nginx webserver!</h1>
-<!--
-	I editted this index.html page to provide links to what I've been working on as well as 
-	what I plan to start working on next.
--->
-<p>This webserver is running off of my Raspberry Pi. First time venturing into web development and linux environments.<br>
-Check out my sample database using MySQL <a href="/phpsampledb.php">here</a>.</p>
-<p>You can see the motion sensor database logs <a href="/proj/data.html">here</a>.</p>
-<p>Links to <a href="/docs.html">Documentation</a>.</p>
-<p>The next steps:<ul>
-<li>CSS/Make it pretty.</li>
-</ul></p>
-<hr>
-<p>For online documentation and support please refer to
-<a href="http://nginx.org/">nginx.org</a>.<br/>
-Commercial support is available at
-<a href="http://nginx.com/">nginx.com</a>.</p>
-<!--Link to info.php -->
-<p> This webserver is running on <a href=/info.php>PHP</a>.</p>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title> RPi Embedded Project | CPS342</title>
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+		<link href="styles/main.css" type="text/css" rel="stylesheet">
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<script type='text/javascript' src='scripts/respond.min.js'></script>
+	</head>
+	<body>
+		
+		<div id="wrapper">
+		
+			<header>
+				
+				<h1>Welcome!</h1>
+				
+				<nav>
+					<ul>
+						<li><a>Home</a></li>
+						<li><a href="/docs.html" title="Documentation">Documentation</a></li>
+						<li><a href="/data.html" title="Sensor Data">Sensor Data</a></li>
+					</ul>
+				</nav>
 
-<p><em>Thank you for using nginx.</em></p>
-</body>
+				<div id="banner">
+					<img src="imgs/setup.jpg" alt="banner" />
+				</div>
+				
+			</header>	
+		
+			<section id="main">
+				<h1>Information</h1>
+				<p>This webserver is running off of my Raspberry Pi. First time venturing into web development and linux environments. Use the navigation buttons on the top to get to documentation and the project itself.</p>
+			</section>
+		
+			<aside>
+				<h1>CSS</h1>
+				<p>This CSS document was provided by <a href="http://www.creativebloq.com/responsive-web-design/build-basic-responsive-site-css-1132756">Creative Bloq.</a></p>
+			</aside>
+	
+		</div>
+
+	</body>
 </html>

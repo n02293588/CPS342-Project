@@ -25,19 +25,26 @@
 						<li><a>Sensor Data</a></li>
 					</ul>
 				</nav>
-
-				
 				<div id="banner">
 					<img src="imgs/setup.jpg" alt="banner" />
 				</div>
+
+
 			</header>	
 		
-			<frame>
+			<section id="frame">
 				<h1>Sensor Data</h1>
 				<p>The frame on this page displays the data coming from the motion sensor. The data here is coming from a MySQL Database controlled by PHP. There is a button below it to refresh the data in the frame.</p>
+				<iframe src="/proj/sensordat.php" width=480px height=320px name="data"i>
+  					<p>Your browser does not support iframes.</p>
+				</iframe>
+				<br>
+				<br>
+				<div align="center">
+					<input type="button" value="Refresh" onclick="data.location.href='/proj/sensordat.php'"> </p>
+				</div>
 				
-
-			</frame>
+			</section>
 	
 		</div>
 
